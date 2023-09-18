@@ -1,0 +1,67 @@
+/* Flights.css */
+
+/* Style for the entire Flights component container */
+.flights-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px; /* Adjust the width as needed */
+    text-align: center;
+  }
+  
+  /* Style for the title */
+  .flights-container h1 {
+    color: #333;
+  }
+  
+  /* Style for the flight table */
+  .flights-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for table headers */
+  .flights-table th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  /* Style for table rows */
+  .flights-table tr {
+    background-color: #fff;
+  }
+  
+  /* Style for alternating table rows */
+  .flights-table tr:nth-child(even) {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style for table cells */
+  .flights-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for the "Add Flight" button */
+  .add-flight-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  /* Hover effect for the button */
+  .add-flight-button:hover {
+    background-color: #1e7e34;
+  }
+  
